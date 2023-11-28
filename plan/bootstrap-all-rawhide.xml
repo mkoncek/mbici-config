@@ -77,6 +77,7 @@
     <component>java_cup</component>
     <component>javacc</component>
     <component>javacc-maven-plugin</component>
+    <component>jaxb</component>
     <component>jctools</component>
     <component>jdom</component>
     <component>jdom2</component>
@@ -196,6 +197,7 @@
     <component>java_cup</component>
     <component>javacc</component>
     <component>javacc-maven-plugin</component>
+    <component>jaxb-istack-commons</component>
     <component>jctools</component>
     <component>jdom</component>
     <component>jdom2</component>
@@ -271,6 +273,7 @@
   </phase>
   <phase>
     <name>nb3</name>
+    <component>jaxb</component>
     <component>maven</component>
   </phase>
   <phase>

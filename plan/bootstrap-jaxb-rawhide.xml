@@ -1,0 +1,26 @@
+<plan>
+  <macro>
+    <name>vendor</name>
+    <value>MBI</value>
+  </macro>
+  <macro>
+    <name>_buildhost</name>
+    <value>mbs.kjnet.xyz</value>
+  </macro>
+  <phase>
+    <name>b1</name>
+    <macro>
+      <name>_with_bootstrap</name>
+      <value>1</value>
+    </macro>
+    <component>jaxb</component>
+  </phase>
+  <phase>
+    <name>nb1</name>
+    <component>jaxb-istack-commons</component>
+  </phase>
+  <phase>
+    <name>nb2</name>
+    <component>jaxb</component>
+  </phase>
+</plan>
